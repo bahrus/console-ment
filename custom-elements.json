@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "console-ment.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "ConsoleMent",
+          "members": [
+            {
+              "kind": "method",
+              "name": "onLog",
+              "parameters": [
+                {
+                  "name": "{ log }"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "onWarn",
+              "parameters": [
+                {
+                  "name": "{ warn }"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "onError",
+              "parameters": [
+                {
+                  "name": "{ error }"
+                }
+              ]
+            }
+          ],
+          "superclass": {
+            "name": "HTMLElement"
+          },
+          "tagName": "console-ment",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ConsoleMent",
+          "declaration": {
+            "name": "ConsoleMent",
+            "module": "console-ment.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "console-ment.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "ConsoleMent",
+          "members": [
+            {
+              "kind": "method",
+              "name": "onLog",
+              "parameters": [
+                {
+                  "name": "{log}",
+                  "type": {
+                    "text": "this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "onWarn",
+              "parameters": [
+                {
+                  "name": "{warn}",
+                  "type": {
+                    "text": "this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "onError",
+              "parameters": [
+                {
+                  "name": "{error}",
+                  "type": {
+                    "text": "this"
+                  }
+                }
+              ]
+            }
+          ],
+          "superclass": {
+            "name": "HTMLElement"
+          },
+          "tagName": "console-ment",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ConsoleMent",
+          "declaration": {
+            "name": "ConsoleMent",
+            "module": "console-ment.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "types.d.ts",
+      "declarations": [],
+      "exports": []
+    }
+  ]
+}

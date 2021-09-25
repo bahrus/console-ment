@@ -12,12 +12,24 @@
   ],
   "main": "console-ment.js",
   "module": "console-ment.js",
+  "exports": {
+    ".": "./console-ment.js",
+    "./consle-ment.js": "./console-ment.js"
+  },
   "dependencies": {
     "trans-render": "0.0.413"
   },
   "devDependencies": {
-    "xtal-test": "0.0.51"
+    "@skypack/package-check": "0.2.2",
+    "xtal-test": "0.0.51",
+    "@custom-elements-manifest/analyzer": "0.5.3"
   },
+  "files": [
+    "*.js",
+    "*.ts",
+    "custom-elements.json"
+  ],
+  "types": "types.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "package-check": "package-check",
@@ -28,10 +40,11 @@
     "type": "git",
     "url": "git+https://github.com/bahrus/console-ment.git"
   },
-  "author": "",
+  "author": "anderson.bruce.b@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bahrus/console-ment/issues"
   },
-  "homepage": "https://github.com/bahrus/console-ment#readme"
+  "homepage": "https://github.com/bahrus/console-ment#readme",
+  "customElements": "custom-elements.json"
 }
