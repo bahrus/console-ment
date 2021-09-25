@@ -1,10 +1,28 @@
 {
   "name": "console-ment",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Web component that logs to the console.",
+  "keywords": [
+    "web-components",
+    "web-component",
+    "custom-elements",
+    "custom-element",
+    "bind",
+    "dom-bind"
+  ],
+  "main": "console-ment.js",
+  "module": "console-ment.js",
+  "dependencies": {
+    "trans-render": "0.0.413"
+  },
+  "devDependencies": {
+    "xtal-test": "0.0.51"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-check": "package-check",
+    "serve": "node node_modules/xtal-test/serve.js",
+    "doc": "custom-elements-manifest analyze"
   },
   "repository": {
     "type": "git",
